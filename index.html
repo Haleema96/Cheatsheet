@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CSS Selectors</title>
+        <link href="./resources/css/styles.css" rel="stylesheet">
+    </head>
+    <body>
+        <h1>CSS Selectors</h1>
+        <h2>Selector Types</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th id="name">Selector</th>
+                        <th>Symbol</th>
+                        <th>Description</th>
+                    </tr>   
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Type</td>
+                        <td class="symbol">None</td>
+                        <td>A type selector matches the type of element in the HTML document.</td>
+                    </tr>
+                    <tr>
+                        <td>Universal</td>
+                        <td class="symbol">*</td>
+                        <td>Selects all elements of any type.</td>
+                    </tr>
+                    <tr>
+                        <td>Class</td>
+                        <td class="symbol">.</td>
+                        <td>Selects an HTML element by using the value of the class attribute.</td>
+                    </tr>
+                    <tr>
+                        <td>ID</td>
+                        <td class="symbol">#</td>
+                        <td>If an HTML element requires a unique style, the 'id' attribute is used.</td>
+                    </tr>
+                </tbody>
+            </table>
+        <h2>Specificity</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Selector</th>
+                        <th>Specifity Level</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>ID</td>
+                        <td class="symbol">Most Specific</td>
+                        <td>ID's only style one element and will override styles of types and classes.</td>
+                    </tr>
+                    <tr>
+                        <td>Class</td>
+                        <td class="symbol">Semi Specific</td>
+                        <td>Classes are meant to be reused over many elements.</td>
+                    </tr>
+                    <tr>
+                        <td>Type</td>
+                        <td class="symbol">Least Specific</td>
+                        <td>Type selectors will apply style to all the elements with that tag name.</td>
+                    </tr>
+                </tbody>
+            </table>
+    </body>
+</html>

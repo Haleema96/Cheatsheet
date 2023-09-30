@@ -1,0 +1,39 @@
+body {
+    font-family: Monaco, sans-serif;
+    background-color: mistyrose;
+}
+
+h1, h2 {
+    font-weight: bolder;
+    text-align: center;
+    color: hotpink;
+}
+
+h2 {
+    color:darkmagenta;
+}
+
+table {
+    border: 5px dotted darkmagenta;
+    margin: 0 auto;
+}
+
+th {
+    font-weight: bolder;
+    color: mediumvioletred;
+    background-color: lavender;
+}
+
+td {
+    color: mediumvioletred;
+    border-top: 2px solid mediumvioletred;
+}
+
+#name {
+    text-align: left;
+}
+
+.symbol {
+    text-align: center;
+    background-color: linen;
+}
